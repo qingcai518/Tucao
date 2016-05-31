@@ -1,0 +1,6 @@
+framework module Pods_Tucao {
+  umbrella header "Pods-Tucao-umbrella.h"
+
+  export *
+  module * { export * }
+}

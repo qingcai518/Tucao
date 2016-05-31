@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F3BB52C6D6E29B0C4711FC8 /* Pods_Tucao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7097A80DE83DB22D35C55A /* Pods_Tucao.framework */; };
 		CEAF71C71CFD77E90018A7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF71C61CFD77E90018A7D6 /* AppDelegate.swift */; };
-		CEAF71C91CFD77E90018A7D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF71C81CFD77E90018A7D6 /* ViewController.swift */; };
+		CEAF71C91CFD77E90018A7D6 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF71C81CFD77E90018A7D6 /* MainController.swift */; };
 		CEAF71CC1CFD77E90018A7D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAF71CA1CFD77E90018A7D6 /* Main.storyboard */; };
 		CEAF71CE1CFD77E90018A7D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAF71CD1CFD77E90018A7D6 /* Assets.xcassets */; };
 		CEAF71D11CFD77E90018A7D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAF71CF1CFD77E90018A7D6 /* LaunchScreen.storyboard */; };
+		CEAF71F21CFD87590018A7D6 /* TucaoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF71F11CFD87590018A7D6 /* TucaoController.swift */; };
+		CEAF71F81CFD8FF80018A7D6 /* TucaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF71F71CFD8FF80018A7D6 /* TucaoModel.swift */; };
+		CEAF71FA1CFD90300018A7D6 /* TucaoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF71F91CFD90300018A7D6 /* TucaoInfo.swift */; };
+		CEAF71FC1CFD974F0018A7D6 /* TucaoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF71FB1CFD974F0018A7D6 /* TucaoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B7097A80DE83DB22D35C55A /* Pods_Tucao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tucao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD38F51C1916BAF5248BB2C /* Pods-Tucao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tucao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tucao/Pods-Tucao.debug.xcconfig"; sourceTree = "<group>"; };
+		C827B53A45832108EC54E1FF /* Pods-Tucao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tucao.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tucao/Pods-Tucao.release.xcconfig"; sourceTree = "<group>"; };
 		CEAF71C31CFD77E90018A7D6 /* Tucao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tucao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAF71C61CFD77E90018A7D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEAF71C81CFD77E90018A7D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEAF71C81CFD77E90018A7D6 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		CEAF71CB1CFD77E90018A7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEAF71CD1CFD77E90018A7D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAF71D01CFD77E90018A7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEAF71D21CFD77E90018A7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAF71F11CFD87590018A7D6 /* TucaoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TucaoController.swift; sourceTree = "<group>"; };
+		CEAF71F31CFD8ED00018A7D6 /* Tucao-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tucao-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEAF71F71CFD8FF80018A7D6 /* TucaoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TucaoModel.swift; sourceTree = "<group>"; };
+		CEAF71F91CFD90300018A7D6 /* TucaoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TucaoInfo.swift; sourceTree = "<group>"; };
+		CEAF71FB1CFD974F0018A7D6 /* TucaoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TucaoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3BB52C6D6E29B0C4711FC8 /* Pods_Tucao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +54,9 @@
 			children = (
 				CEAF71C51CFD77E90018A7D6 /* Tucao */,
 				CEAF71C41CFD77E90018A7D6 /* Products */,
+				F3E5F2320D0043221B9F18F6 /* Pods */,
+				FDD6650D3ADFA728E1785AC0 /* Frameworks */,
+				CEAF71F31CFD8ED00018A7D6 /* Tucao-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,67 @@
 		CEAF71C51CFD77E90018A7D6 /* Tucao */ = {
 			isa = PBXGroup;
 			children = (
-				CEAF71C61CFD77E90018A7D6 /* AppDelegate.swift */,
-				CEAF71C81CFD77E90018A7D6 /* ViewController.swift */,
+				CEAF71F01CFD87380018A7D6 /* TucaoController */,
+				CEAF71EE1CFD86BC0018A7D6 /* Common */,
+				CEAF71EC1CFD868F0018A7D6 /* MainController */,
+			);
+			path = Tucao;
+			sourceTree = "<group>";
+		};
+		CEAF71EC1CFD868F0018A7D6 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF71C81CFD77E90018A7D6 /* MainController.swift */,
 				CEAF71CA1CFD77E90018A7D6 /* Main.storyboard */,
+			);
+			name = MainController;
+			sourceTree = "<group>";
+		};
+		CEAF71EE1CFD86BC0018A7D6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF71EF1CFD86DB0018A7D6 /* Resource */,
+				CEAF71C61CFD77E90018A7D6 /* AppDelegate.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		CEAF71EF1CFD86DB0018A7D6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
 				CEAF71CD1CFD77E90018A7D6 /* Assets.xcassets */,
 				CEAF71CF1CFD77E90018A7D6 /* LaunchScreen.storyboard */,
 				CEAF71D21CFD77E90018A7D6 /* Info.plist */,
 			);
-			path = Tucao;
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		CEAF71F01CFD87380018A7D6 /* TucaoController */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF71F11CFD87590018A7D6 /* TucaoController.swift */,
+				CEAF71F71CFD8FF80018A7D6 /* TucaoModel.swift */,
+				CEAF71F91CFD90300018A7D6 /* TucaoInfo.swift */,
+				CEAF71FB1CFD974F0018A7D6 /* TucaoCell.swift */,
+			);
+			name = TucaoController;
+			sourceTree = "<group>";
+		};
+		F3E5F2320D0043221B9F18F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBD38F51C1916BAF5248BB2C /* Pods-Tucao.debug.xcconfig */,
+				C827B53A45832108EC54E1FF /* Pods-Tucao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDD6650D3ADFA728E1785AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B7097A80DE83DB22D35C55A /* Pods_Tucao.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEAF71D51CFD77E90018A7D6 /* Build configuration list for PBXNativeTarget "Tucao" */;
 			buildPhases = (
+				84ECC8BFC5CFD1D2919221B1 /* 📦 Check Pods Manifest.lock */,
 				CEAF71BF1CFD77E90018A7D6 /* Sources */,
 				CEAF71C01CFD77E90018A7D6 /* Frameworks */,
 				CEAF71C11CFD77E90018A7D6 /* Resources */,
+				79D03096529EC9C02D2D3B11 /* 📦 Embed Pods Frameworks */,
+				B8A4071E88D4A3C9520769A6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +169,7 @@
 				TargetAttributes = {
 					CEAF71C21CFD77E90018A7D6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2K794A54P5;
 					};
 				};
 			};
@@ -130,12 +204,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79D03096529EC9C02D2D3B11 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tucao/Pods-Tucao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84ECC8BFC5CFD1D2919221B1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A4071E88D4A3C9520769A6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tucao/Pods-Tucao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEAF71BF1CFD77E90018A7D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAF71C91CFD77E90018A7D6 /* ViewController.swift in Sources */,
+				CEAF71F81CFD8FF80018A7D6 /* TucaoModel.swift in Sources */,
+				CEAF71F21CFD87590018A7D6 /* TucaoController.swift in Sources */,
+				CEAF71FC1CFD974F0018A7D6 /* TucaoCell.swift in Sources */,
+				CEAF71FA1CFD90300018A7D6 /* TucaoInfo.swift in Sources */,
+				CEAF71C91CFD77E90018A7D6 /* MainController.swift in Sources */,
 				CEAF71C71CFD77E90018A7D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +328,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8e58e39e-97db-4587-9bda-4bbd1d391f0c";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -240,6 +367,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8e58e39e-97db-4587-9bda-4bbd1d391f0c";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -247,23 +375,38 @@
 		};
 		CEAF71D61CFD77E90018A7D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD38F51C1916BAF5248BB2C /* Pods-Tucao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tucao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.kaka.Tucao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tucao-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		CEAF71D71CFD77E90018A7D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C827B53A45832108EC54E1FF /* Pods-Tucao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tucao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.kaka.Tucao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tucao-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +429,7 @@
 				CEAF71D71CFD77E90018A7D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (3.4.0)
+  - AlamofireImage (2.4.0):
+    - Alamofire (~> 3.3)
+  - Bond (4.3.1)
+  - QBImagePickerController (3.4.0)
+  - RxCocoa (2.5.0):
+    - RxSwift (~> 2.5)
+  - RxSwift (2.5.0)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - AlamofireImage (~> 2.0)
+  - Bond (~> 4.0)
+  - QBImagePickerController
+  - RxCocoa (~> 2.0)
+  - RxSwift (~> 2.0)
+  - SDWebImage (~> 3.7)
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  Bond: 55903fc67f09e8e49791a657163cabba1d6fb29d
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  RxCocoa: e1b1562e57a554d0fb2aabf9d71b637f177257c7
+  RxSwift: 402b41a50e922a0368fc14cb3bc9f4427920e8ae
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: 0921aceb8f42dd398e182fabeac10393552c6823
+
+COCOAPODS: 1.0.0
